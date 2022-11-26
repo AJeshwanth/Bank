@@ -1,0 +1,11 @@
+<html>
+    <head><title>Balance Section</title></head>
+    <body>
+        <h1 style="text-align: center;">Check Your Balance</h1>
+        <form action="/Balance" method="get">
+            <p style="text-align: center; font-size: larger;"><b>Account Number:<input type="text" name="Account_Num" value={{Account_Num}}></b></p>
+            <p style="text-align: center; font-size: larger;"><b>PIN No:<input type="text" name="PIN_Num" value={{PIN_Num}}></b></p>
+            <p style="text-align: center; font-size: larger;"><button><b>Current Balance</b>{{str}}{{Current_Bal}}</button></p>
+        </form>
+    </body>
+</html>

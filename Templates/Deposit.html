@@ -1,0 +1,14 @@
+<html>
+    <head><title>Deposit Section</title></head>
+    <body>
+        <h1 style="text-align: center;">Deposit Your Money</h1>
+        <form action="/Deposit" method="get">       
+            <p style="text-align: center; font-size: larger;"><b>Account No:<input type="text" name="Account_Num" value="{{Account_Num}}"></b></p>
+            <p style="text-align: center; font-size: larger;"><b>PIN No:<input type="text" name="PIN_Num" value="{{PIN_Num}}"></b></p>
+            <p style="text-align: center; font-size: larger;"><b>Deposit Amount:<input type="text" name="Amount"></b></p>
+            <p style="text-align: center; font-size: larger; height: 100;"><button type="submit" >Deposit</button></p>
+        </form>
+        <p style="text-align: center; font-size: larger;"><b>Current Balance:{{curr_bal}}</b></p>
+        <p style="text-align: center; font-size: larger;"><b>Updated Balance:{{upd_bal}}</b></p>
+    </body>
+</html>
